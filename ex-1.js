@@ -1,10 +1,10 @@
 function addByX(x) {
   // Start coding here
-  return function(y) {
-    return x + y;
-  }
-}
 
+return function(y) {
+    return x + y;
+  };
+}
 // Uncomment โค้ดด้านล่างเพื่อดูผลลัพธ์ของการทำงาน
 
 const addByTwo = addByX(2);

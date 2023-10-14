@@ -1,14 +1,15 @@
 function matchAction(x) {
   // Start coding here
-  return {
+ return {
     addByX: function(y) {
-    return y + x;
-  },
+      return x + y;
+    },
     subtractByX: function(y) {
-    return y - x;
-  }
+      return y - x;
+    },
+  };
 }
-}
+
 // Uncomment โค้ดด้านล่างเพื่อดูผลลัพธ์ของการทำงาน
 const addByTwo = matchAction(2);
 console.log(addByTwo.addByX(1)); // => should return 3
