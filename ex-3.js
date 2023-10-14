@@ -23,7 +23,7 @@ let productSales = [
 function calculateTotalSales(items) {
   let total = 0;
   for (let item of items) {
-    total = total + item.sale;
+    total = items.reduce((accumulator, item) => accumulator + item.sales, 0)
   }
   return total;
 }
